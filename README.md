@@ -41,7 +41,7 @@ Here’s the **LinkedIn message** you can set as auto-reply to the candidates wh
 ---
 ### 2. Create an S3 Bucket
 - In the AWS Console, go to **S3 → Create bucket**
-- Name your bucket something like: `santa-hiring`
+- Name your bucket something like: `<your_name>-hiring`
 - Leave the defaults except:
   - **Block all public access:** ✅ (keep this enabled)
 - Click **Create bucket**
