@@ -62,7 +62,7 @@ Here’s the **LinkedIn message** you can set as auto-reply to the candidates wh
 1. Go to [Google Apps Script](https://script.google.com/)
 2. Click **New Project**
 3. Name it `Hiring Helper Gmail to S3`
-4. Replace the sample code with the code in 'App_Script_Code' file
+4. Replace the sample code with the code in 'gmail_to_s3.js' file
 5. Save and **Deploy → New Deployment → Web App**
 6. Choose:
    - **Execute as:** Me  
