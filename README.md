@@ -46,8 +46,6 @@ Here’s the **LinkedIn message** you can set as auto-reply to the candidates wh
   - **Block all public access:** ✅ (keep this enabled)
 - Click **Create bucket**
 - Use AWS Lambda + API Gateway to create a simple HTTP endpoint that writes incoming data to your S3 bucket.
-- The endpoint will look like: https://abc123xyz.execute-api.us-west-2.amazonaws.com/upload
-- This URL becomes your WEBHOOK_URL in the App Script.
 ---
 ### 3. Getting your AWS webhook
 - Open AWS Lambda Console: https://console.aws.amazon.com/lambda.
@@ -58,7 +56,7 @@ Here’s the **LinkedIn message** you can set as auto-reply to the candidates wh
 - Click Save.
 - Copy the URL
 - After saving, you’ll see a link that looks like this: https://<xyz-abc-123>.lambda-url.us-east-1.on.aws/
-> This URL will be your `WEBHOOK_URL` in the code below.
+> This URL will be your `WEBHOOK_URL` in the App Script code.
 ---
 ### 4. Deploy the Google App Script
 1. Go to [Google Apps Script](https://script.google.com/)
