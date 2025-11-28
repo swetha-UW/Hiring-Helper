@@ -67,6 +67,7 @@ Here’s the **LinkedIn message** you can set as auto-reply to the candidates wh
 6. Choose:
    - **Execute as:** Me  
    - **Who has access:** Anyone with the link
+     
    This grants the script permission to access Gmail.
 7. Follow these steps to schedule the script to check Gmail every minute.
    - Go to Triggers → Add Trigger:
